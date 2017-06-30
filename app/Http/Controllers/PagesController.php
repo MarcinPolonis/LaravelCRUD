@@ -30,7 +30,21 @@ class PagesController extends Controller
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
+     * 
+     * 
+     *
      */
+    
+      public function show(Pages $page)
+    {
+          
+         
+        return view('pages.show', compact('page'));
+    }
+
+    
+    
+    
     public function create()
     {
         return view('pages.create');

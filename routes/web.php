@@ -20,6 +20,10 @@ Route::group([
         'uses' => 'PagesController@index',
         'as' => 'pages.index'
     ]);
+    Route::get('pages/show/{page}', [
+        'uses' => 'PagesController@show',
+        'as' => 'pages.show'
+        ]);
     Route::get('pages/create', [
         'uses' => 'PagesController@create',
         'as' => 'pages.create' 
