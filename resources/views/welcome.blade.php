@@ -71,8 +71,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-                <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login</a>
+                <div class="top-right links">      
                     <a href="{{ url('/pages') }}">Przejdź do zadania</a>
                 </div>
             @endif
