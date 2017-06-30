@@ -62,6 +62,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .m-b-describe {
+                margin-bottom: 20px;
+                font-size: 28px;
+            }
         </style>
     </head>
     <body>
@@ -77,7 +81,19 @@
                 <div class="title m-b-md">
                     Zadanie testowe CRUD
                 </div>
-
+                <div class=" m-b-describe">
+                    Aby się zalogować użyj danych:
+                    <br> login:user@example.com <br>
+                    hasło:user <br> użytkownik user posiada pełne prawo do zasobu /pages
+                </div>
+                
+                <div class=" m-b-describe">
+                    Aby się zalogować użyj danych:
+                    <br> login:user3@example.com <br>
+                    hasło:user3 <br> użytkownik user3 nie posiada  prawa do zasobu /pages
+                </div>
+                
+                
                 
             </div>
         </div>
